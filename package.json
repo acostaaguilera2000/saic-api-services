@@ -1,0 +1,20 @@
+{
+  "name": "saic-api-services",
+  "version": "1.0.0",
+  "description": "Servicios Web y APIs para el sistema SAIC - Evidencias GA7-AA5",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [],
+  "author": "Manuel Andrés Acosta Aguilera",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "morgan": "^1.11.0"
+  }
+}
